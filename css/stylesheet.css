@@ -1,0 +1,154 @@
+a {
+	text-decoration: none;
+	color: #8199FF;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 3px;
+	display: block;
+	line-height: 25px;
+	opacity: 1.0;
+	transition-duration: 0.5s;
+	background-color: #efffff;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	box-shadow: 5px 4px 2px #781352;
+	border-radius: 8px;
+	text-decoration-thickness: 3px;
+}
+
+a:hover {
+	color: #C0605D;
+	background-color: #DBDBDB;
+	text-decoration-thickness: 5px;
+}
+
+body {
+	background-image: url('https://hataonline.github.io/mascots/background.jpg');
+	background-attachment: fixed;
+	font-family: "ﾃｯﾂｼﾂｭﾃｯﾂｼﾂｳ ﾃｯﾂｼﾂｰﾃ｣窶堋ｴﾃ｣窶堋ｷﾃ｣ﾆ槌津｣窶堋ｯ", "MS PGothic", "Mona", "IPA ﾃ｣ﾆ陳｢ﾃ｣ﾆ椎 ﾃ｣ﾆ陳ｼ Pﾃ｣窶堋ｴﾃ｣窶堋ｷﾃ｣ﾆ槌津｣窶堋ｯ", "IPAMonaPGothic", "Monapo", "sans-serif"!important;
+	background-size: 100% 100%;
+	text-shadow: 1px 2px black;
+	text-align: center;
+	font-weight: bold;
+}
+
+h1 {
+	margin-top: -10px;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding: 5px 15%;
+	font-size: 350%;
+	background: linear-gradient(to bottom, rgb(89, 65, 226), #9e15bf);
+	opacity: .75;
+	border-bottom: 2px solid black;
+}
+
+h1:hover {
+    opacity: .95;
+}
+
+h1, h2 {
+	color: #e9faff;
+	text-align: center;
+}
+
+h7 {
+	font-size: 20px;
+	color: #ED99C8;
+	border-bottom: 2px dotted #8A8A8A;
+}
+
+div {
+	display: inline;
+	margin-top: auto;
+	width: 120px;
+	height: 25px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+#container {
+	width: 100%;
+	display: table;
+}
+
+.square {
+	display: inline-block;
+	width: 14%;
+	height: 35px;
+	margin: 1px;
+	vertical-align: top;
+	background-color: #efffff;
+	border-bottom: 2px solid black;
+	box-shadow: 6px 4px #781352;
+	font-size-adjust: .455;
+}
+
+.content {
+	margin: auto;
+	line-height: 25px;
+}
+#changer1 {
+	left: 0px;
+	bottom: 0px;
+}
+
+#changer2 {
+	right: 0px;
+	bottom: 0px;
+}
+
+#changer1, #changer2 {
+	width: 350px;
+	height: 50%;
+	position:fixed;
+	z-index: -1;
+	opacity: 0.0;
+}
+
+#mascot {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: -2;
+	width: 100%;
+	height: 90%;
+	background-image: url("https://hataonline.github.io/mascots/image16.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: auto 55%;
+}
+
+.title {
+	width: inherit;
+	height: inherit;
+	line-height: 40px;
+	text-decoration-thickness: 3px;
+}
+
+.search {
+	border-bottom: 1px solid #8A8A8A;
+	border-right: 2px solid black;
+	padding: 5px;
+	width: 35%;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	background-color: #EFF0F1;
+	box-shadow: 6px 4px 2px #781352;
+}
+
+.search-box {
+	background-color: inherit;
+	color: #8A8A8A;
+	border: none;
+	width: 100%;
+	padding: 0;
+	font-family: Open Sans;
+}
+
+.search-box:focus {
+	outline: none;
+}
+
